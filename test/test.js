@@ -14,6 +14,9 @@ test = () => {
     console.log(a);
     
     document.getElementById("result").innerHTML = JSON.stringify(c);
+
+    console.log("Hello World");
+    alert("Hello Everyone");
 }
 
 test();
