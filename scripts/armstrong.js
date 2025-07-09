@@ -2,7 +2,7 @@
 
 const armstrongNo = (num) => {
   let sum = 0;
-  let noOfDigits = num?.length;
+  let numberOfDigits = num?.length;
   let temp = num;
   while (temp > 0) {
     let remainder = temp % 10;
@@ -10,8 +10,13 @@ const armstrongNo = (num) => {
     temp = parseInt(temp / 10);
   }
   if (temp === num) {
-    console.log(`${number} is an Armstrong number`);
+    console.log(`${num} is an Armstrong number`);
   } else {
-    console.log(`${number} is not an Armstrong number.`);
+    console.log(`${num} is not an Armstrong number.`);
   }
 };
+
+armstrongNo(153);
+armstrongNo(125);
+armstrongNo("1");
+armstrongNo("a");
