@@ -1,4 +1,4 @@
-// WAP to merge property of two objects
+// WAP to Check if a Key Exists in an Object
 
 const ifKeyExists = (obj, key) => {
     if (typeof obj === "object") {
