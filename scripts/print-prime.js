@@ -9,8 +9,6 @@ const printPrimeNumbers = (n) => {
     }
 };
 
-
-
 const findPrimes = (n) => {
     for (let i = 1; i <= n; i++) {
         let flag = 0;
